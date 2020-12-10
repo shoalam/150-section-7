@@ -1,0 +1,128 @@
+
+/*General Styling*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Yantramanav';
+}
+a{
+  text-decoration: none;
+}
+
+ul, li{
+  list-style: none;
+}
+
+button:focus{
+  outline: none;
+}
+
+/*services-seciton*/
+
+.team-section{
+  padding: 45px 0;
+}
+
+.section-title
+ {
+    margin-bottom: 70px;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2a2a2a;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.section-title h2:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ededed;
+    width: 60px;
+    height: 4px;
+    border-radius: 50px;
+}
+
+.section-title h2:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #14ADF3;
+    width: 50px;
+    height: 4px;
+    border-radius: 50px;
+}
+
+.section-title p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+
+.single-team-item {
+    padding-right: 24px;
+}
+
+.owl-carousel .owl-item .single-team-item img{
+    max-width: 160px;
+    width: auto;
+}
+
+.team-info {
+    margin: 30px 0 20px 0;
+}
+
+.team-info h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #424242;
+}
+
+.team-info h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #c8c8c8;
+}
+
+.single-team-item p {
+    color: #696969;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: -80px;
+    right: 0;
+}
+
+.owl-carousel .owl-nav button {
+    width: 45px;
+    height: 40px;
+    background: #f3f3f3 !important;  
+    color: #6f6f6f !important; 
+}
+
+.owl-carousel .owl-nav button i {
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.owl-carousel .owl-nav button:hover {
+    background: #14ADF3 !important;
+    color: #fff !important;
+}
+
